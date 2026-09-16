@@ -5,10 +5,12 @@
 A solver for LinkedIn's daily **Queens** puzzle, written as a binary integer
 linear program in Python with [PuLP](https://coin-or.github.io/pulp/).
 
-The rules of Queens boil down to a handful of "exactly one" constraints, which
+The rules of Queens boil down to a handful of 'only one' constraints, which
 is exactly the kind of problem integer programming is built for. This project
 models the puzzle that way, solves boards in a few milliseconds, checks whether
 a puzzle's answer is unique, and generates new puzzles.
+
+I was inspired to do this after learning the assignment problem in Linear Optimization.
 
 ![An unsolved 9x9 board next to the solver's answer](docs/before-after.png)
 
