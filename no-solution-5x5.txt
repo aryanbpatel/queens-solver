@@ -1,0 +1,7 @@
+# Regions A and B are single cells right next to each other, so their
+# queens would have to touch. Handy for testing the "no solution" path.
+ABCCC
+CCCCC
+DDDDD
+DDDDD
+EEEEE
